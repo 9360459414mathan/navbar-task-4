@@ -1,0 +1,104 @@
+/*================ common style start ===================*/
+	*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+	.container{
+	width:100%;
+	margin:0 auto;
+	}
+	.col-1{
+    width: 8.33%;
+    padding: 15px 0px !important;
+}
+.col-2{
+    width: 16.66%;
+    padding: 15px 0px !important;
+}
+.col-3{
+    width: 25%;
+    padding: 15px 0px !important;
+}
+.col-4{
+    width: 33.33%;
+    padding: 15px 0px !important;
+}
+.col-5{
+    width: 41.66%;
+    padding: 15px 0px !important;
+}
+.col-6{
+    width: 50%;
+    padding: 15px 0px !important;
+}
+.col-7{
+    width: 58.33%;
+    padding:  15px 0px !important;
+}
+.col-8{
+    width: 66.66%;
+    padding:  15px 0px !important;
+}
+.col-9{
+    width: 75%;
+    padding:  15px 0px !important;
+}
+.col-10{
+    width: 83.33%;
+    padding: 0 15px !important;
+}
+.col-11{
+    width: 91.66%;
+    padding: 0 15px !important;
+}
+.col-12{
+    width: 100%;
+    padding: 0px 15px !important;
+}
+ /*================ common style end ===================*/
+ /*================ Header style start =================*/
+ .container{
+	 width:90%;
+	 margin:0 auto;
+ }
+body{
+	background-color:#2d3436;
+}
+.nav-bar{
+	margin-top:200px;
+	text-align:center;
+	justify-content:center;
+}
+.nav-bar ul{
+	display:inline-black;
+	list-style:none;
+	transform:skew(-22deg);
+}
+.nav-bar ul li{
+	background-color:#fff;
+	float:left;
+	border-right:1px solid #eee;
+	box-shadow:1.95px 1.95px 2.7px rgba(0,0,0,1);
+	text-transform:uppercase;
+	color:#555;
+	font-weight:400;
+	transition:all 0.3s linear;
+}
+.nav-bar 	ul li:hover{
+	background-color:blue;
+	color:white;
+}
+a{
+	color:inherit;
+	display:black;
+	padding:10px 25px;
+	transform:skew(22deg);
+	text-decoration:none;
+}
+.nav-bar ul li:first-child{
+	border-radius:8px 0 0 8px;
+}
+.nav-bar ul li:last-child{
+	border-radius:0 8px 8px 0;
+}
